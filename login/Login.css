@@ -1,0 +1,117 @@
+body {
+    font-family: "Saira Semi Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EFF1FE; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #EFF1FE;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    width: 400px; 
+}
+
+.header{
+    margin-bottom: 20px;
+}
+.logo{
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+.header h2 {
+    margin-top: 0;
+    color: #275986  ;
+    font-size: 1.2em;
+
+}
+.form-wrapper {
+    
+    border-radius: 6px;
+    background-color: #e9f0fa;
+     padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+.form-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #275986;
+    font-size: 1.4em;
+}
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #1DA9E9;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 0.85em;
+    color: #1DA9E9;
+    text-decoration: none;
+}
+.forgot-password:hover {
+    text-decoration: underline;
+}
+.login-btn {
+    background-color: #275986; 
+    color: white;
+    padding: 8px 16px; 
+    border: 1px solid #275986; 
+    border-radius: 4px; 
+    font-size: 14px; 
+    cursor: pointer;
+}
+.login-btn:hover {
+    background-color: #203e69;
+}
+.signup-link {
+    font-size: 0.9em;
+    color: #1DA9E9;
+    margin-top: 15px;
+}
+
+.signup-link a {
+    color: #275986;
+    text-decoration: none;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+}
+input {
+    border: none;
+    border-bottom: 2px solid black; 
+    background: transparent;
+    outline: none;
+    padding: 5px 0;
+    font-size: 16px;
+    width: 100%;
+  }
+  
+  input:focus {
+    border-bottom: 2px solid #1DA9E9; 
+  }
+  
+  label {
+    font-weight: bold;
+    color: #275986; 
+    display: block;
+    margin-bottom: 5px;
+
+  }
